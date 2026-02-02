@@ -1,16 +1,8 @@
 import { Chapter, Letter, ChapterEntry } from '@/types';
 
-interface Manifest {
-  chapters: string[];
-  letters: string[];
-}
-
-export class ContentService {
-  private static manifest: Manifest | null = null;
-
 export class ContentService {
   private static parseFrontmatter(content: string): { data: Record<string, string>, body: string } {
-    const frontmatterRegex = /^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/;
+    const frontmatterRegex = /^\s*---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/;
     const match = content.match(frontmatterRegex);
 
     const data: Record<string, string> = {};
@@ -49,7 +41,7 @@ export class ContentService {
   }
 
   static async getAllChapters(): Promise<Chapter[]> {
-    const chapterModules = import.meta.glob('/content/chapters/*.md', { query: '?raw', import: 'default' });
+    const chapterModules = import.meta.glob('../content/chapters/**/*.md', { query: '?raw', import: 'default' });
     const chapters = await Promise.all(
       Object.entries(chapterModules).map(async ([path, loader]) => {
         const id = path.split('/').pop()?.replace('.md', '') || '';
@@ -65,6 +57,7 @@ export class ContentService {
           image: data['image'] || '',
           description: data['description'] || '',
           date: data['date'] || '',
+          era: data['era'] as 'BG' | 'AG' || undefined,
           entries: entries
         } as Chapter;
       })
@@ -73,7 +66,7 @@ export class ContentService {
   }
 
   static async getAllLetters(): Promise<Letter[]> {
-    const letterModules = import.meta.glob('/content/letters/*.md', { query: '?raw', import: 'default' });
+    const letterModules = import.meta.glob('../content/letters/*.md', { query: '?raw', import: 'default' });
     const letters = await Promise.all(
       Object.entries(letterModules).map(async ([path, loader]) => {
         const id = path.split('/').pop()?.replace('.md', '') || '';
@@ -99,5 +92,4 @@ export class ContentService {
     const res = await fetch('/content/family/tree.json');
     return await res.json();
   }
-}
 }

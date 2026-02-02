@@ -3,9 +3,10 @@ id: early-days
 title: Life in Royston Park
 subtitle: Early Days
 yearRange: 1965-1975
-image: /assets/images/chapters/early-days.jpg
+image: https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1000&auto=format&fit=crop
 description: Childhood homes, Benji the Golden Retriever, and the Great Creaming Soda explosion.
 date: October 14, 2023
+era: BG
 ---
 DAD, what kind of house did you grow up in and what was the old neighborhood like?
 I moved to a big sandstone house in a suburb called Royston Park when I was about 10.

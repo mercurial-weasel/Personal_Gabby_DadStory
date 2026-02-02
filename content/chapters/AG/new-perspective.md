@@ -3,9 +3,10 @@ id: new-perspective
 title: Becoming a Father
 subtitle: Fatherhood
 yearRange: 2000-Present
-image: /assets/images/chapters/new-perspective.jpg
+image: https://images.unsplash.com/photo-1555252333-978fe3c748e2?q=80&w=1000&auto=format&fit=crop
 description: Fremen eyes, Fremen eyes, and the sublime stillness of meeting Samantha.
 date: January 5, 2024
+era: AG
 ---
 DAD, what do you remember about the birth of your children?
 When you were born, Gabby, the doctor lifted you up and you looked around with the brightest blue eyes I had ever seen—truly like the Fremen from Dune. Your expression seemed to say, “What just happened, and who are all of you?”

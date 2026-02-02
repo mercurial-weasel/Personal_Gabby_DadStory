@@ -4,9 +4,10 @@ id: growing-up
 title: How did you spend your teenage summers?
 subtitle: Teens
 yearRange: 1975-1983
-image: /assets/images/chapters/growing-up.jpg
+image: https://images.unsplash.com/photo-1519750783826-e2420f4d687f?auto=format&fit=crop&q=80&w=800
 description: Flannel shirts, bad haircuts, and the freedom of the open road.
 date: November 2, 2023
+era: BG
 ---
 High school was a blur of bad haircuts and even worse fashion choices. I rode my red Schwinn bicycle everywhere—it was my first taste of true freedom. 
 

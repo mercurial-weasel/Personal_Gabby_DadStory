@@ -3,9 +3,10 @@ id: reflections-wisdom
 title: Looking Back, Moving Forward
 subtitle: Reflections
 yearRange: Present
-image: /assets/images/chapters/reflections-wisdom.jpg
+image: https://images.unsplash.com/photo-1482867996988-29ec3a0f1daa?q=80&w=1000&auto=format&fit=crop
 description: Lessons on perseverance, the penguin mountain slide, and surrendering to reality.
 date: February 14, 2024
+era: AG
 ---
 DAD, what’s your favorite memory of your dad? Your mom?
 When I think about my dad, I always remember him at the snow. This serious man put on a snow suit and slid down the mountain on his belly like a penguin, laughing.

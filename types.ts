@@ -12,6 +12,7 @@ export interface Chapter {
   description: string;
   date?: string;
   yearRange?: string;
+  era?: 'BG' | 'AG';
   entries: ChapterEntry[];
 }
 

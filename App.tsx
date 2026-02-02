@@ -11,6 +11,7 @@ import Timeline from '@/components/Timeline';
 import LetterList from '@/components/LetterList';
 import LetterView from '@/components/LetterView';
 import FamilyTreePage from '@/components/FamilyTree';
+import WelcomeView from '@/components/WelcomeView';
 import { ContentService } from '@/services/contentService';
 import { Chapter, Letter } from '@/types';
 import { THEME } from '@/themes';
@@ -21,12 +22,20 @@ const Home: React.FC = () => {
 
   const features = [
     {
+      title: 'Welcome Message',
+      description: "A personal message from me to you :)",
+      icon: <Sparkles className="w-8 h-8" />,
+      path: '/welcome',
+      color: 'bg-[#8c7355]',
+      hoverColor: 'hover:bg-[#6b5841]'
+    },
+    {
       title: 'Letters to Gabby',
       description: 'Personal messages, wisdom, and thoughts shared just for you.',
       icon: <Mail className="w-8 h-8" />,
       path: '/letters',
-      color: THEME.bg.bronze,
-      hoverColor: THEME.bg.bronzeHover
+      color: 'bg-[#c9731d]',
+      hoverColor: 'hover:bg-[#b06318]'
     },
     {
       title: 'Explore Life Map',
@@ -70,21 +79,16 @@ const Home: React.FC = () => {
   return (
     <main className="flex flex-1 flex-col items-center justify-center px-4 py-16 animate-in fade-in duration-1000">
       <div className="max-w-[1000px] w-full flex flex-col items-center text-center space-y-16">
-        <div className="space-y-8">
-          <div className="flex flex-col items-center gap-6">
-            <h1 className={`${THEME.text.heading} text-4xl md:text-5xl lg:text-7xl font-medium leading-[1.1] tracking-tight px-4 font-display italic max-w-4xl mx-auto`}>
-              "I'm so proud of you, Gabby. This is a collection of stories from my life - I want to stay a part of yours."
-            </h1>
-            <p className={`${THEME.text.muted} text-lg md:text-xl max-w-2xl mx-auto font-sans leading-relaxed`}>
-              I'll be adding more memories from your childhood and my life as I go. For now, take your time exploring the archive. Every branch and every letter is here for you.
-            </p>
-          </div>
+        <div className="space-y-6">
+          <h1 className={`${THEME.text.heading} text-4xl md:text-5xl lg:text-7xl font-medium leading-[1.1] tracking-tight px-4 font-display italic max-w-4xl`}>
+            Hi Gabby. This is our shared story—the world before you, and the beautiful one since.
+          </h1>
           <div className="flex justify-center">
             <div className="h-1 w-16 bg-primary/20 rounded-full"></div>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
           {features.map((feature, idx) => (
             <button
               key={idx}
@@ -94,8 +98,8 @@ const Home: React.FC = () => {
                   ? `${feature.color} border-2 border-primary/20 ${feature.textColor} ${feature.hoverBg}`
                   : `${feature.color} ${feature.hoverColor || ''} text-white shadow-sm hover:shadow-xl hover:-translate-y-1`
                 }
-                ${feature.textColor && idx === 2 ? `${feature.textColor} hover:bg-primary/5` : ''}
-                ${feature.title === 'Family Tree' ? 'md:col-span-2' : ''}
+                ${feature.textColor && (idx === 3 || idx === 4) ? `${feature.textColor} hover:bg-primary/5` : ''}
+                ${feature.title === 'Family Tree' ? 'md:col-span-2 lg:col-span-1' : ''}
               `}
             >
               <div className={`mb-6 p-3 rounded-2xl ${feature.variant === 'outline' ? 'bg-primary/10' : 'bg-white/20'} transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3`}>
@@ -176,6 +180,7 @@ const App: React.FC = () => {
             <Route path="/chapter/:id" element={<StoryView chapters={chapters} />} />
             <Route path="/random" element={<RandomMemory />} />
             <Route path="/family" element={<FamilyTreePage />} />
+            <Route path="/welcome" element={<WelcomeView />} />
           </Routes>
         </div>
 

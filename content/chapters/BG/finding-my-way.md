@@ -3,9 +3,10 @@ id: finding-my-way
 title: Exploration & Discovery
 subtitle: Young Adult
 yearRange: 1985-1999
-image: /assets/images/chapters/finding-my-way.jpg
+image: https://images.unsplash.com/photo-1541443131876-44b03de101c5?q=80&w=1000&auto=format&fit=crop
 description: Rebuilding a Mini, the secret Volvo camping trip, and meeting Linda.
 date: December 10, 2023
+era: BG
 ---
 DAD, who taught you to drive, and what was your first car?
 My Mum taught me to drive (she was a terrible teacher haha), and my first car experience was a Corolla which was a super reliable car – the most god awful mustard yellow too.

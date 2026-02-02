@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
         </Link>
       </div>
       <div className="space-y-4">
-        <p className={`${THEME.text.muted} text-sm font-normal`}>Dad's Story &copy; {new Date().getFullYear()} — Made for Gabby</p>
+        <p className={`${THEME.text.muted} text-sm font-normal`}>Our Shared Story &copy; {new Date().getFullYear()} — Made for Gabby</p>
         <div className="flex justify-center gap-4 text-[#957350]/60">
           <Heart className="w-5 h-5 animate-pulse" />
         </div>

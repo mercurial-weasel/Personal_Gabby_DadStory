@@ -29,7 +29,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode }) => {
             <Library className="w-7 h-7" />
           </div>
           <h2 className="text-2xl font-light italic tracking-tight font-display text-primary/90">
-            Dad's Story
+            Our Shared Story
           </h2>
         </Link>
 
