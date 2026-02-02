@@ -11,6 +11,7 @@ export interface Chapter {
   image: string;
   description: string;
   date?: string;
+  lastModified?: string;
   yearRange?: string;
   era?: 'BG' | 'AG';
   entries: ChapterEntry[];
@@ -21,6 +22,7 @@ export interface Letter {
   title: string;
   chapterLabel: string;
   date: string;
+  lastModified?: string;
   previewText: string;
   fullContent: string;
   image: string;

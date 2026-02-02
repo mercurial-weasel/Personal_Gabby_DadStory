@@ -6,7 +6,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ChapterList from '@/components/ChapterList';
 import StoryView from '@/components/StoryView';
-import RandomMemory from '@/components/RandomMemory';
+import LatestUpdates from '@/components/LatestUpdates';
 import Timeline from '@/components/Timeline';
 import LetterList from '@/components/LetterList';
 import LetterView from '@/components/LetterView';
@@ -55,10 +55,10 @@ const Home: React.FC = () => {
       hoverShadow: 'hover:shadow-md'
     },
     {
-      title: 'Random Memory',
-      description: 'Let chance guide you to a story or insight from the archive.',
+      title: 'Latest Updates',
+      description: 'See the most recently added stories and memories in the archive.',
       icon: <Sparkles className="w-8 h-8" />,
-      path: '/random',
+      path: '/updates',
       variant: 'outline',
       color: 'bg-transparent',
       textColor: 'text-primary',
@@ -178,7 +178,7 @@ const App: React.FC = () => {
             <Route path="/letters" element={<LetterList letters={letters} />} />
             <Route path="/letter/:id" element={<LetterView letters={letters} />} />
             <Route path="/chapter/:id" element={<StoryView chapters={chapters} />} />
-            <Route path="/random" element={<RandomMemory />} />
+            <Route path="/updates" element={<LatestUpdates chapters={chapters} />} />
             <Route path="/family" element={<FamilyTreePage />} />
             <Route path="/welcome" element={<WelcomeView />} />
           </Routes>

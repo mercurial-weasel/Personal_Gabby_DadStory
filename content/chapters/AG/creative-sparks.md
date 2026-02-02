@@ -5,6 +5,7 @@ yearRange: 2018-Present
 image: https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=1000&auto=format&fit=crop
 description: From painting to music, watching your creativity bloom has been a joy.
 date: July 1, 2024
+lastModified: February 2, 2026
 era: AG
 ---
 You've always had a way of looking at the world that is uniquely yours. Whether it's through a paintbrush, a camera lens, or a musical instrument, your creativity is a gift to everyone around you.

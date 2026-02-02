@@ -18,7 +18,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode }) => {
     { name: 'Letters', path: '/letters', active: location.pathname.includes('/letter') },
     { name: 'Chapters', path: '/chapters', active: location.pathname.includes('/chapter') },
     { name: 'Family', path: '/family' },
-    { name: 'Memories', path: '/random' },
+    { name: 'Updates', path: '/updates' },
   ];
 
   return (

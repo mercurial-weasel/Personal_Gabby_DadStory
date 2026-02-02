@@ -14,8 +14,8 @@ const LetterList: React.FC<LetterListProps> = ({ letters }) => {
 
   const sortedLetters = [...letters].sort((a, b) => {
     if (sortBy === 'recent') {
-      const dateA = a.date ? new Date(a.date).getTime() : 0;
-      const dateB = b.date ? new Date(b.date).getTime() : 0;
+      const dateA = a.lastModified ? new Date(a.lastModified).getTime() : (a.date ? new Date(a.date).getTime() : 0);
+      const dateB = b.lastModified ? new Date(b.lastModified).getTime() : (b.date ? new Date(b.date).getTime() : 0);
       return dateB - dateA;
     }
     return 0; // Default order

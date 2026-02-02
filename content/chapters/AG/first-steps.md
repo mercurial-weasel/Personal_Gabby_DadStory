@@ -5,6 +5,7 @@ yearRange: 2009-2012
 image: https://images.unsplash.com/photo-1510333303868-88682b184290?q=80&w=1000&auto=format&fit=crop
 description: The wobbly beginnings, the first words, and the sheer joy of discovery.
 date: March 15, 2024
+lastModified: February 2, 2026
 era: AG
 ---
 I remember the day you took your first steps like it was yesterday. We were in the living room, and you were holding onto the edge of the coffee table. You looked at me with those determined eyes, let go, and took two wobbly steps before collapsing into my arms. 

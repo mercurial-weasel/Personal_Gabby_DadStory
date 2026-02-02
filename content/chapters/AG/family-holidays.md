@@ -5,6 +5,7 @@ yearRange: 2010-Present
 image: https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1000&auto=format&fit=crop
 description: Camping trips, beach days, and the winding roads of our shared adventures.
 date: May 20, 2024
+lastModified: February 2, 2026
 era: AG
 ---
 Some of our best talks happened in the car, driving to nowhere in particular. Whether it was a rainy camping trip or a sun-drenched day at the beach, these were the times we really connected.

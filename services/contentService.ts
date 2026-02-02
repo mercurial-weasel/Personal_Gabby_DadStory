@@ -57,6 +57,7 @@ export class ContentService {
           image: data['image'] || '',
           description: data['description'] || '',
           date: data['date'] || '',
+          lastModified: data['lastModified'] || '',
           era: data['era'] as 'BG' | 'AG' || undefined,
           entries: entries
         } as Chapter;
@@ -77,6 +78,7 @@ export class ContentService {
           title: data['title'] || '',
           chapterLabel: data['chapterLabel'] || '',
           date: data['date'] || '',
+          lastModified: data['lastModified'] || '',
           previewText: data['previewText'] || '',
           fullContent: body.trim(),
           image: data['image'] || '',

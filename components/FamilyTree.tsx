@@ -127,7 +127,7 @@ const FamilyTreePage: React.FC = () => {
             </div>
 
             <p className={`mt-12 text-center text-xs ${THEME.text.muted} italic max-w-2xl mx-auto leading-relaxed`}>
-                "The family is one of nature's masterpieces."
+                "Clearly a work in progress, OMG"
             </p>
         </main>
     );

@@ -6,6 +6,7 @@ yearRange: 1975-1985
 image: https://images.unsplash.com/photo-1595435066929-23c289069678?q=80&w=1000&auto=format&fit=crop
 description: Mr Warne's moustache, tennis dreams, and the unwritten rules of the house.
 date: November 2, 2023
+lastModified: February 2, 2026
 era: BG
 ---
 DAD, who was your favorite teacher, and why?

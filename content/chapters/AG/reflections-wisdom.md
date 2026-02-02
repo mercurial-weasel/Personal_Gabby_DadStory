@@ -6,6 +6,7 @@ yearRange: Present
 image: https://images.unsplash.com/photo-1482867996988-29ec3a0f1daa?q=80&w=1000&auto=format&fit=crop
 description: Lessons on perseverance, the penguin mountain slide, and surrendering to reality.
 date: February 14, 2024
+lastModified: February 2, 2026
 era: AG
 ---
 DAD, what’s your favorite memory of your dad? Your mom?

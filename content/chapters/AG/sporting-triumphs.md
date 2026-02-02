@@ -5,6 +5,7 @@ yearRange: 2015-Present
 image: https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=1000&auto=format&fit=crop
 description: Rain or shine, seeing you out on the field has taught me so much about perseverance.
 date: August 15, 2024
+lastModified: February 2, 2026
 era: AG
 ---
 Saturday mornings were always our time. The early wake-up calls, the smell of fresh-cut grass, and the thrill of the game. Whether you won or lost, you always played with heart.

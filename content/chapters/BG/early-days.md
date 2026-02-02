@@ -6,6 +6,7 @@ yearRange: 1965-1975
 image: https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1000&auto=format&fit=crop
 description: Childhood homes, Benji the Golden Retriever, and the Great Creaming Soda explosion.
 date: October 14, 2023
+lastModified: February 2, 2026
 era: BG
 ---
 DAD, what kind of house did you grow up in and what was the old neighborhood like?

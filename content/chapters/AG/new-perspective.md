@@ -6,6 +6,7 @@ yearRange: 2000-Present
 image: https://images.unsplash.com/photo-1555252333-978fe3c748e2?q=80&w=1000&auto=format&fit=crop
 description: Fremen eyes, Fremen eyes, and the sublime stillness of meeting Samantha.
 date: January 5, 2024
+lastModified: February 2, 2026
 era: AG
 ---
 DAD, what do you remember about the birth of your children?
