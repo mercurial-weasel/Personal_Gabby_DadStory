@@ -1,0 +1,8 @@
+{
+  "name": "Dad's Story - A Legacy for Gabby",
+  "description": "A beautiful, interactive digital memoir and story collection for Gabby, featuring AI-generated memories and life chapters.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
