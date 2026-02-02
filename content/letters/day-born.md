@@ -3,6 +3,7 @@ id: day-born
 title: The Day You Were Born
 chapterLabel: Chapter 01
 date: June 12, 2008
+lastModified: February 2, 2026
 previewText: A winter morning in Melbourne when everything I thought I knew about love changed forever…
 image: https://images.unsplash.com/photo-1544126592-807daf21565c?q=80&w=1000&auto=format&fit=crop
 imageCaption: Melbourne Hospital, June 2008

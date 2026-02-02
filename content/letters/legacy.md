@@ -3,6 +3,7 @@ id: legacy
 title: My Legacy for You
 chapterLabel: Chapter 22
 date: Final Words
+lastModified: February 2, 2026
 previewText: If I leave you with nothing else, I hope these three truths remain anchored in your heart...
 image: https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1000&auto=format&fit=crop
 imageCaption: Ancient woods, 2023

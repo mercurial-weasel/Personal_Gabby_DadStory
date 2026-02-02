@@ -3,6 +3,7 @@ id: finding-path
 title: On Finding Your Path
 chapterLabel: Chapter 14
 date: Reflections
+lastModified: February 2, 2026
 previewText: The world will tell you who you ought to be. Listen instead to the quiet voice that speaks when you are alone...
 image: https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1000&auto=format&fit=crop
 imageCaption: Mountain peaks, 2022

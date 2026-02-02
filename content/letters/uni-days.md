@@ -3,6 +3,7 @@ id: uni-days
 title: Your Uni Years
 chapterLabel: Chapter 08
 date: Autumn 2026
+lastModified: February 2, 2026
 previewText: This is one of those rare seasons in life where everything feels open - people everywhere, ideas everywhere, and energy in the air...
 image: https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1000&auto=format&fit=crop
 imageCaption: Campus life
