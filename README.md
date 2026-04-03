@@ -1,59 +1,100 @@
 # Dad's Story — A Legacy for Gabby
 
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+## Summary
 
-> "Hi Gabby. This is a collection of stories from my life. Take your time."
+| Field | Value |
+|-------|-------|
+| Context | Interactive digital memoir and story collection for Gabby, featuring life chapters, letters, timeline, and AI-generated memories |
+| Classification | Independent - Dave Braendler owned |
+| Users | Gabby (primary reader), Dave Braendler (author/maintainer) |
+| Commercial Value | Personal legacy project — no direct commercial value |
+| Status Notes | Active and functional. Content is being expanded. Deployed via AI Studio. |
+| Languages | TypeScript, React, Markdown |
 
-This project is a personal archive and a digital legacy designed for Gabby. It serves as a beautiful, interactive space to explore life stories, letters, and memories.
+## Overview
 
-## ✨ Features
+A personal digital archive and legacy app designed for Gabby. It provides a beautiful, interactive space to explore life stories organised into chronological chapters (before and after Gabby), personal letters, a visual timeline of milestones, a family tree, and AI-powered memory generation using Google Gemini. Built with React 19, Vite, and Tailwind CSS.
 
-- 📖 **Story Chapters**: Chronological narratives of life's essential moments.
-- ✉️ **Letters to Gabby**: Personal messages and wisdom shared through a letter-writing format.
-- 🗺️ **Life Map (Timeline)**: A visual exploration of significant milestones across time.
-- 🪄 **AI Memories**: Powered by Google Gemini, generating random memories or insights from the archive.
-- 🌓 **Dark Mode**: Support for light and dark themes for comfortable reading.
+## Venture
 
-## 🛠️ Tech Stack
+Personal
 
-- **Framework**: [React 19](https://react.dev/)
-- **Build Tool**: [Vite](https://vitejs.dev/)
-- **Routing**: [React Router 7](https://reactrouter.com/)
-- **AI Integration**: [Google Gemini API (@google/genai)](https://ai.google.dev/)
-- **Styling**: Tailwind CSS
-- **Deployment**: AI Studio App (Integrated)
+## Classification
 
-## 🚀 Getting Started
+Independent - Dave Braendler owned
 
-### Prerequisites
+## Status
 
-- [Node.js](https://nodejs.org/) (Latest LTS recommended)
+Active
 
-### Local Development
+## Users
 
-1. **Clone the repository** (if applicable) or navigate to the project directory.
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-3. **Configure Environment**:
-   Create a `.env.local` file in the root (if it doesn't exist) and add your Gemini API key:
-   ```env
-   VITE_GEMINI_API_KEY=your_api_key_here
-   ```
-4. **Run the app**:
-   ```bash
-   npm run dev
-   ```
-5. **Open your browser**:
-   Navigate to `http://localhost:5173`.
+Gabby as the primary reader. Dave Braendler as author and maintainer.
 
-## 📂 Content Management
+## Commercial Value
 
-Story content and letters are managed via JSON manifest files and markdown/text content located in the `/content` directory.
+Personal legacy project with no direct commercial value.
+
+## Dependencies
+
+- Google Gemini API (`@google/genai`) for AI memory generation
+- BALKAN FamilyTree.js for family tree visualisation
+- AI Studio for deployment
+
+## Current State
+
+Functional and deployed. Story chapters are split into "Before Gabby" and "After Gabby" eras with content in Markdown. Letters, timeline, family tree, and AI memories features are all working. Content is actively being expanded. Dark mode supported.
 
 ---
 
-*View this app in AI Studio: [Dad's Story - A Legacy for Gabby](https://ai.studio/apps/drive/1PN6Z4NtgkWU2ovxSk3imHbAYF6NIQIvT)*
+# Feature Register
+
+> Living register of shipped capabilities. Updated as features land.
+> Last updated: 2026-04-04
+
+## Stories
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Before Gabby Chapters | Shipped | Chronological life stories from before Gabby was born |
+| After Gabby Chapters | Shipped | Chronological life stories from after Gabby was born |
+| Markdown Content | Shipped | Stories authored in Markdown with frontmatter metadata |
+
+## Letters
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Letters to Gabby | Shipped | Personal letters viewable in a dedicated reader |
+
+## Timeline
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Life Map Timeline | Shipped | Visual timeline of significant life milestones |
+
+## Family
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Family Tree | Shipped | Interactive family tree visualisation using BALKAN FamilyTree.js |
+
+## AI
+| Feature | Status | Description |
+|---------|--------|-------------|
+| AI Memories | Shipped | Google Gemini generates random memories and insights from the archive |
+
+## UX
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Dark Mode | Shipped | Light and dark theme support for comfortable reading |
+| Welcome View | Shipped | Landing page with navigation to all sections |
+| Responsive Navigation | Shipped | Navbar with routing across all sections |
+
+## Recent Changes
+| Date | Change |
+|------|--------|
+| 2026-04-04 | README updated to standard format |
+| 2025-02-28 | Updated readme with original content |
+| 2025-02-28 | Added additional story content |
+| 2025-02-27 | Added additional info and expanded chapters |
+| 2025-02-27 | Data structure and core functionality working |
+| 2025-02-27 | Before Gabby / After Gabby chapter structure implemented |
+
+---
+*Structured for GitHub-Powered IP Register sync. Fields above are read by the dashboard.*
